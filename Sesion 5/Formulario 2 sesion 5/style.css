@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    background: lightblue;                                                                                                                              
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input,textarea,select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type= submit]:hover{
+    background-color: #454567;
+    color: white;
+    cursor: pointer;
+}
+
+input[type= reset]:hover{
+    background-color: #454567;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+}

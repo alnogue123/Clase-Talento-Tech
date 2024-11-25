@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>
+                Formulario de contacto
+            </h1>
+            <label>*Nombre:</label>
+            <input type="text" name="nombre" required>
+            <label>*Correo electronico:</label>
+            <input type="email" name="Correo" required>
+            <label>*Ingrese su contraseña</label>
+            <input type="password" name="clave" required>
+            <label>Celular</label>
+            <input type="number" name="celular" maxlength="15">
+            <label>Mensaje</label>
+            <textarea name="Mensaje"></textarea>
+            <label>Pais de origen</label>
+            <select name="Pais">
+                <option disabled selected>Seleccione...</option>
+                <option value="">España</option>
+                <option value="">Colombia</option>
+                <option value="">Venezuela</option>
+                <option value="">Ecuador</option>
+                <option value="">Chile</option>
+                <option value="">Madadascar</option>
+            </select>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar"> 
+            <p>* campo requerido...</p>
+        </form>
+    </div>
+</body>
+
+</html>
